@@ -22,12 +22,12 @@ def is_pangram(sentence):
     # Check if all letters of the alphabet are present
     return all(letter in sentence for letter in string.ascii_lowercase)
 
-# Example usage for Roman numeral to integer conversion
+
 roman_numeral = input("Enter a Roman numeral: ")
 integer_value = roman_to_integer(roman_numeral.upper())
 print("Integer value of", roman_numeral, "is", integer_value)
 
-# Example usage for pangram check
+# Example  for pangram check
 input_sentence = input("Enter a sentence: ")
 if is_pangram(input_sentence):
     print("The input is a pangram.")
